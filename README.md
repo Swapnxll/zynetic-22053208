@@ -13,6 +13,12 @@ A RESTful API built with **Node.js**, **Express**, and **MongoDB** to manage boo
 - Bcrypt for Password Hashing
 - Morgan for Logging
 
+![OUTPUTS](outputs/Screenshot%202025-04-09%20215833.png)
+![OUTPUTS](outputs/Screenshot%202025-04-09%20224035.png)
+![OUTPUTS](outputs/Screenshot%202025-04-09%20215954.png)
+![OUTPUTS](outputs/Screenshot%202025-04-09%20220030.png)
+![OUTPUTS](outputs/Screenshot%202025-04-09%20222730.png)
+
 ## 🔐 Authentication Routes
 
 > All routes are prefixed with `/api/auth`
