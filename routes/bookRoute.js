@@ -7,6 +7,7 @@ import {
   deleteBookById,
   filterBooks,
   searchBooksByTitle,
+  paginateBooks,
 } from "../controllers/bookController.js";
 import { SignIn } from "../middleware/authMiddleware.js";
 
