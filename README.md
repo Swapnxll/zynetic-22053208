@@ -18,6 +18,13 @@ A RESTful API built with **Node.js**, **Express**, and **MongoDB** to manage boo
 ![OUTPUTS](outputs/Screenshot%202025-04-09%20215954.png)
 ![OUTPUTS](outputs/Screenshot%202025-04-09%20220030.png)
 ![OUTPUTS](outputs/Screenshot%202025-04-09%20222730.png)
+![OUTPUTS](outputs/Screenshot%202025-04-09%20220758.png)
+![OUTPUTS](outputs/Screenshot%202025-04-09%20222939.png)
+![OUTPUTS](outputs/Screenshot%202025-04-09%20222649.png)
+![OUTPUTS](outputs/Screenshot%202025-04-09%20223224.png)
+![OUTPUTS](outputs/Screenshot%202025-04-09%20223136.png)
+
+![OUTPUTS](outputs/Screenshot%202025-04-09%20223911.png)
 
 ## 🔐 Authentication Routes
 
