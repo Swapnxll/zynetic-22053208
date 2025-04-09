@@ -82,3 +82,37 @@ export const searchBooksByTitle = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
+
+export const paginateBooks = async (req, res) => {
+  try {
+    const { page = 1, limit = 10 } = req.query;
+
+    const books = await Book.find()
+      .skip((page - 1) * limit)
+      .limit(Number(limit));
+
+    const total = await Book.countDocuments();
+
+    res.json({
+      total,
+      page: Number(page),
+      pages: Math.ceil(total / limit),
+      books,
+    });
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};
+
+export const sortBooks = async (req, res) => {
+  try {
+    const { sortBy = "price", order = "asc" } = req.query;
+
+    const sortOrder = order === "desc" ? -1 : 1;
+
+    const books = await Book.find().sort({ [sortBy]: sortOrder });
+    res.json(books);
+  } catch (err) {
+    res.status(500).json({ message: err.message });
+  }
+};

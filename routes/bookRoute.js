@@ -19,5 +19,5 @@ router.get("/search", searchBooksByTitle);
 router.get("/:id", getBookById);
 router.put("/:id", updateBookById);
 router.delete("/:id", deleteBookById);
-
+router.get("/paginate", paginateBooks);
 export default router;
